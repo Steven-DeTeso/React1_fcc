@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: Inter;
+    background-color: #282D35;
 }
 
 .navbar {
@@ -31,4 +32,30 @@ body {
 nav > img {
     margin-right: 7px;
     height: 30px;
+}
+
+.main-content {
+    padding: 57px 27px;
+    color: #FFFFFF;
+}
+
+.main-header {
+    margin: 0px;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.main-list {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main-list > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main-list > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
